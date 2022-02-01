@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" >
+    <title>Guerra de HQ´s</title>
+</head>
+<body>
+    <div>
+        <h1 class="text"><strong> Formulario Nerd</strong></h1><br>
+        <h3 class="text2"><strong> responda a questões abaixo.</strong> </h3>
+        <br>
+    </div>
+        <form>
+            <fieldset class="grupo">
+                <div class="inline"> 
+                    <div>
+                   <label for="name" ><strong>Nome </strong> </label>
+                   <input type="text" name="nome" id="nome" required> 
+                </div>
+                <div>
+                     <label for="sobrenome"><strong>Sobrenome </strong> </label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div>
+                <label for="email"><strong> Email </strong></label>
+                <input type="email" name="email" id="email" required>
+            </div> 
+                </div>
+               
+            <div class="campo">
+                <label><strong>qual universo você prefere? </strong> </label>
+                <label>
+                    <input type="radio" name="DC" value="batman">Dc Comics
+                </label>
+                <label>
+                    <input type="radio" name="Marvel" value="Capitão América">Marvel Comics
+                </label>
+            </div>
+            <div class="campo">
+                <label for="Nivel de Conhecimento do universo nerd">
+                  <strong>Nível de Conhecimento do universo nerd </strong>  
+                </label>
+                <select id="Nível de Conhecimento do universo nerd">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Geek</option>
+                    <option>Nerd Disfarçado</option>
+                    <option>Nerd Sem Futuro</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+               <div id="checkbox">
+                   <label><strong> selecione as historias que conhece:</strong> </label><br><br>
+                   <input type="checkbox" id="hq1" value="Homem de Ferro Superior">
+                   <label for="hq1">Homem de Ferro Superior</label>
+                   <input type="checkbox" id="hq2" value="Guerra Civil I">
+                   <label for="hq2">Guerra Civil I</label>
+                   <input type="checkbox" id="hq3" value="Guerra Civil II">
+                   <label for="hq3">Guerra Civil II</label>
+                   <input type="checkbox" id="hq4" value="Homem Aranha: A Sombra da Aranha">
+                   <label for="hq4">Homem Aranha: A Sombra da Aranha</label>
+                   <input type="checkbox" id="hq5" value="Desafio Infinito">
+                   <label for="hq5">Desafio Infinito</label>
+                   <input type="checkbox" id="hq6" value="Guerra Infinita">
+                   <label for="hq6">Guerra Infinita</label>
+                   <input type="checkbox" id="hq7" value="Saga Rei das Trevas">
+                   <label for="hq7">Saga Rei das Trevas</label>
+                   <input type="checkbox" id="hq8" value="O Batman Que Ri">
+                   <label for="hq8">O Batman Que Ri</label>
+                   <input type="checkbox" id="hq9" value="Lanterna Verde: A noite mais densa">
+                   <label for="hq9">Lanterna Verde: A noite mais densa</label>
+                   <input type="checkbox" id="hq10" value="Superman: Origem Secreta">
+                   <label for="hq10">Superman: Origem Secreta</label>
+                   <input type="checkbox" id="hq11" value="Batman: Noite de Trevas- Metal">
+                   <label for="hq11">Batman: Noite de Trevas- Metal</label>
+                   <input type="checkbox" id="hq12" value="Shazam! Com uma palavra Mágica">
+                   <label for="hq12">Shazam! Com uma palavra Mágica</label>
+                   <input type="checkbox" id="hq13" value="Batman: Alerquina">
+                   <label for="hq13">Batman: Alerquina</label>
+                   <input type="checkbox" id="hq14" value="Lanterna Verde: O dia mais claro">
+                   <label for="hq14">Lanterna Verde: O dia mais claro</label>
+               </div> 
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label><strong>  Conte como conheceu o mundo Marvel Comics</strong></label>
+                <textarea name="experiencia" id="experiencia" row="6" style="width: 26em"></textarea>
+            </div>
+            <button class="btn" type="submit">Concluído
+           </button>       
+        </form>
+    
+</body>
+</html>
